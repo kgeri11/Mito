@@ -81,19 +81,19 @@ const Ticket = () => {
         dealer = getRandomNumberBetweenIncluding(max + 1, 21)
       }
 
-      if (chance < 0.3) {
+      if (chance <= 0.3) {
         setPrize({ value: '500 Ft', label: 'ötszáz' })
         generateWinnerValues()
-      } else if (0.3 < chance < 0.55) {
+      } else if (0.3 < chance <= 0.55) {
         setPrize({ value: '1000 Ft', label: 'ezer' })
         generateWinnerValues()
-      } else if (0.55 < chance < 0.7) {
+      } else if (0.55 < chance <= 0.7) {
         setPrize({ value: '5000 Ft', label: 'ötezer' })
         generateWinnerValues()
-      } else if (0.7 < chance < 0.8) {
+      } else if (0.7 < chance <= 0.8) {
         setPrize({ value: '10000 Ft', label: 'tízezer' })
         generateWinnerValues()
-      } else if (0.8 < chance < 0.85) {
+      } else if (0.8 < chance <= 0.85) {
         setPrize({ value: '10000Ft Ft', label: 'százezer' })
         generateWinnerValues()
       } else {
