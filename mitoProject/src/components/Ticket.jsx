@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react'
  * kezdetleges kaparás maradt
  * - figmában nem találtam olyan elemet ami egyben a lekaparható felületet mutatja (bár ez lehet az én hibám)
  * ezért van egy pici kilátszó rész aminek a takarásával nem foglalkoztam
- * - a lekaparható felület felbontása borzalmas, de csak így tudtam működésre bírni ebben a megoldásban, funkciójának
+ * - a lekaparható felület felbontása borzalmas és szerintem ezzel összefüggésben van az egér érzékelés is, de csak így tudtam működésre bírni ebben a megoldásban, funkciójának
  * megfelelően működik
  */
 
