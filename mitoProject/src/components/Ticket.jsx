@@ -84,38 +84,20 @@ const Ticket = () => {
       if (chance < 0.3) {
         setPrize({ value: '500 Ft', label: 'ötszáz' })
         generateWinnerValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'end 500 Ft')
       } else if (0.3 < chance < 0.55) {
         setPrize({ value: '1000 Ft', label: 'ezer' })
         generateWinnerValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'end 1000 Ft')
       } else if (0.55 < chance < 0.7) {
         setPrize({ value: '5000 Ft', label: 'ötezer' })
         generateWinnerValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'end 5000 Ft')
       } else if (0.7 < chance < 0.8) {
         setPrize({ value: '10000 Ft', label: 'tízezer' })
         generateWinnerValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'end 10000 Ft')
       } else if (0.8 < chance < 0.85) {
         setPrize({ value: '10000Ft Ft', label: 'százezer' })
         generateWinnerValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'end 10000Ft Ft')
       } else {
         generateLoserValues()
-        console.log(values)
-        console.log(max)
-        console.log(dealer, 'lost')
       }
 
       if (bonusChance < 0.5) {
